@@ -15,6 +15,9 @@
 		2A01D9AA1EDAB713008F8CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A01D9A81EDAB713008F8CB6 /* LaunchScreen.storyboard */; };
 		2A01D9B51EDAB714008F8CB6 /* ThreeCountdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01D9B41EDAB714008F8CB6 /* ThreeCountdownTests.m */; };
 		2A01D9C01EDAB714008F8CB6 /* ThreeCountdownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01D9BF1EDAB714008F8CB6 /* ThreeCountdownUITests.m */; };
+		2A01D9CF1EDAB9A0008F8CB6 /* CountdownOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01D9CE1EDAB9A0008F8CB6 /* CountdownOneViewController.m */; };
+		2A01D9D21EDABEA0008F8CB6 /* CountdownTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01D9D11EDABEA0008F8CB6 /* CountdownTwoViewController.m */; };
+		2A01D9D51EDABED9008F8CB6 /* CountdownThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01D9D41EDABED9008F8CB6 /* CountdownThreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		2A01D9BB1EDAB714008F8CB6 /* ThreeCountdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeCountdownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A01D9BF1EDAB714008F8CB6 /* ThreeCountdownUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeCountdownUITests.m; sourceTree = "<group>"; };
 		2A01D9C11EDAB714008F8CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A01D9CD1EDAB9A0008F8CB6 /* CountdownOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownOneViewController.h; sourceTree = "<group>"; };
+		2A01D9CE1EDAB9A0008F8CB6 /* CountdownOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownOneViewController.m; sourceTree = "<group>"; };
+		2A01D9D01EDABEA0008F8CB6 /* CountdownTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownTwoViewController.h; sourceTree = "<group>"; };
+		2A01D9D11EDABEA0008F8CB6 /* CountdownTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownTwoViewController.m; sourceTree = "<group>"; };
+		2A01D9D31EDABED9008F8CB6 /* CountdownThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownThreeViewController.h; sourceTree = "<group>"; };
+		2A01D9D41EDABED9008F8CB6 /* CountdownThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownThreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				2A01D99E1EDAB713008F8CB6 /* AppDelegate.m */,
 				2A01D9A01EDAB713008F8CB6 /* ViewController.h */,
 				2A01D9A11EDAB713008F8CB6 /* ViewController.m */,
+				2A01D9CD1EDAB9A0008F8CB6 /* CountdownOneViewController.h */,
+				2A01D9CE1EDAB9A0008F8CB6 /* CountdownOneViewController.m */,
+				2A01D9D01EDABEA0008F8CB6 /* CountdownTwoViewController.h */,
+				2A01D9D11EDABEA0008F8CB6 /* CountdownTwoViewController.m */,
+				2A01D9D31EDABED9008F8CB6 /* CountdownThreeViewController.h */,
+				2A01D9D41EDABED9008F8CB6 /* CountdownThreeViewController.m */,
 				2A01D9A31EDAB713008F8CB6 /* Main.storyboard */,
 				2A01D9A61EDAB713008F8CB6 /* Assets.xcassets */,
 				2A01D9A81EDAB713008F8CB6 /* LaunchScreen.storyboard */,
@@ -274,8 +289,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A01D9A21EDAB713008F8CB6 /* ViewController.m in Sources */,
+				2A01D9CF1EDAB9A0008F8CB6 /* CountdownOneViewController.m in Sources */,
 				2A01D99F1EDAB713008F8CB6 /* AppDelegate.m in Sources */,
+				2A01D9D21EDABEA0008F8CB6 /* CountdownTwoViewController.m in Sources */,
 				2A01D99C1EDAB713008F8CB6 /* main.m in Sources */,
+				2A01D9D51EDABED9008F8CB6 /* CountdownThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
