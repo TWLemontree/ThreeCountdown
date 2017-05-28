@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A01D99C1EDAB713008F8CB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01D99B1EDAB713008F8CB6 /* main.m */; };
+		2A01D99F1EDAB713008F8CB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01D99E1EDAB713008F8CB6 /* AppDelegate.m */; };
+		2A01D9A21EDAB713008F8CB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01D9A11EDAB713008F8CB6 /* ViewController.m */; };
+		2A01D9A51EDAB713008F8CB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A01D9A31EDAB713008F8CB6 /* Main.storyboard */; };
+		2A01D9A71EDAB713008F8CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A01D9A61EDAB713008F8CB6 /* Assets.xcassets */; };
+		2A01D9AA1EDAB713008F8CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A01D9A81EDAB713008F8CB6 /* LaunchScreen.storyboard */; };
+		2A01D9B51EDAB714008F8CB6 /* ThreeCountdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01D9B41EDAB714008F8CB6 /* ThreeCountdownTests.m */; };
+		2A01D9C01EDAB714008F8CB6 /* ThreeCountdownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01D9BF1EDAB714008F8CB6 /* ThreeCountdownUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A01D9B11EDAB714008F8CB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A01D98F1EDAB713008F8CB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A01D9961EDAB713008F8CB6;
+			remoteInfo = ThreeCountdown;
+		};
+		2A01D9BC1EDAB714008F8CB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A01D98F1EDAB713008F8CB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A01D9961EDAB713008F8CB6;
+			remoteInfo = ThreeCountdown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A01D9971EDAB713008F8CB6 /* ThreeCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A01D99B1EDAB713008F8CB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A01D99D1EDAB713008F8CB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A01D99E1EDAB713008F8CB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A01D9A01EDAB713008F8CB6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A01D9A11EDAB713008F8CB6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A01D9A41EDAB713008F8CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A01D9A61EDAB713008F8CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A01D9A91EDAB713008F8CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A01D9AB1EDAB713008F8CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A01D9B01EDAB714008F8CB6 /* ThreeCountdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeCountdownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A01D9B41EDAB714008F8CB6 /* ThreeCountdownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeCountdownTests.m; sourceTree = "<group>"; };
+		2A01D9B61EDAB714008F8CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A01D9BB1EDAB714008F8CB6 /* ThreeCountdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeCountdownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A01D9BF1EDAB714008F8CB6 /* ThreeCountdownUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeCountdownUITests.m; sourceTree = "<group>"; };
+		2A01D9C11EDAB714008F8CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A01D9941EDAB713008F8CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A01D9AD1EDAB714008F8CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A01D9B81EDAB714008F8CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A01D98E1EDAB713008F8CB6 = {
+			isa = PBXGroup;
+			children = (
+				2A01D9991EDAB713008F8CB6 /* ThreeCountdown */,
+				2A01D9B31EDAB714008F8CB6 /* ThreeCountdownTests */,
+				2A01D9BE1EDAB714008F8CB6 /* ThreeCountdownUITests */,
+				2A01D9981EDAB713008F8CB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A01D9981EDAB713008F8CB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A01D9971EDAB713008F8CB6 /* ThreeCountdown.app */,
+				2A01D9B01EDAB714008F8CB6 /* ThreeCountdownTests.xctest */,
+				2A01D9BB1EDAB714008F8CB6 /* ThreeCountdownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A01D9991EDAB713008F8CB6 /* ThreeCountdown */ = {
+			isa = PBXGroup;
+			children = (
+				2A01D99D1EDAB713008F8CB6 /* AppDelegate.h */,
+				2A01D99E1EDAB713008F8CB6 /* AppDelegate.m */,
+				2A01D9A01EDAB713008F8CB6 /* ViewController.h */,
+				2A01D9A11EDAB713008F8CB6 /* ViewController.m */,
+				2A01D9A31EDAB713008F8CB6 /* Main.storyboard */,
+				2A01D9A61EDAB713008F8CB6 /* Assets.xcassets */,
+				2A01D9A81EDAB713008F8CB6 /* LaunchScreen.storyboard */,
+				2A01D9AB1EDAB713008F8CB6 /* Info.plist */,
+				2A01D99A1EDAB713008F8CB6 /* Supporting Files */,
+			);
+			path = ThreeCountdown;
+			sourceTree = "<group>";
+		};
+		2A01D99A1EDAB713008F8CB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A01D99B1EDAB713008F8CB6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A01D9B31EDAB714008F8CB6 /* ThreeCountdownTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A01D9B41EDAB714008F8CB6 /* ThreeCountdownTests.m */,
+				2A01D9B61EDAB714008F8CB6 /* Info.plist */,
+			);
+			path = ThreeCountdownTests;
+			sourceTree = "<group>";
+		};
+		2A01D9BE1EDAB714008F8CB6 /* ThreeCountdownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A01D9BF1EDAB714008F8CB6 /* ThreeCountdownUITests.m */,
+				2A01D9C11EDAB714008F8CB6 /* Info.plist */,
+			);
+			path = ThreeCountdownUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A01D9961EDAB713008F8CB6 /* ThreeCountdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A01D9C41EDAB714008F8CB6 /* Build configuration list for PBXNativeTarget "ThreeCountdown" */;
+			buildPhases = (
+				2A01D9931EDAB713008F8CB6 /* Sources */,
+				2A01D9941EDAB713008F8CB6 /* Frameworks */,
+				2A01D9951EDAB713008F8CB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeCountdown;
+			productName = ThreeCountdown;
+			productReference = 2A01D9971EDAB713008F8CB6 /* ThreeCountdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A01D9AF1EDAB714008F8CB6 /* ThreeCountdownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A01D9C71EDAB714008F8CB6 /* Build configuration list for PBXNativeTarget "ThreeCountdownTests" */;
+			buildPhases = (
+				2A01D9AC1EDAB714008F8CB6 /* Sources */,
+				2A01D9AD1EDAB714008F8CB6 /* Frameworks */,
+				2A01D9AE1EDAB714008F8CB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A01D9B21EDAB714008F8CB6 /* PBXTargetDependency */,
+			);
+			name = ThreeCountdownTests;
+			productName = ThreeCountdownTests;
+			productReference = 2A01D9B01EDAB714008F8CB6 /* ThreeCountdownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A01D9BA1EDAB714008F8CB6 /* ThreeCountdownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A01D9CA1EDAB714008F8CB6 /* Build configuration list for PBXNativeTarget "ThreeCountdownUITests" */;
+			buildPhases = (
+				2A01D9B71EDAB714008F8CB6 /* Sources */,
+				2A01D9B81EDAB714008F8CB6 /* Frameworks */,
+				2A01D9B91EDAB714008F8CB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A01D9BD1EDAB714008F8CB6 /* PBXTargetDependency */,
+			);
+			name = ThreeCountdownUITests;
+			productName = ThreeCountdownUITests;
+			productReference = 2A01D9BB1EDAB714008F8CB6 /* ThreeCountdownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A01D98F1EDAB713008F8CB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "抬头看见柠檬树";
+				TargetAttributes = {
+					2A01D9961EDAB713008F8CB6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					2A01D9AF1EDAB714008F8CB6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A01D9961EDAB713008F8CB6;
+					};
+					2A01D9BA1EDAB714008F8CB6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A01D9961EDAB713008F8CB6;
+					};
+				};
+			};
+			buildConfigurationList = 2A01D9921EDAB713008F8CB6 /* Build configuration list for PBXProject "ThreeCountdown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A01D98E1EDAB713008F8CB6;
+			productRefGroup = 2A01D9981EDAB713008F8CB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A01D9961EDAB713008F8CB6 /* ThreeCountdown */,
+				2A01D9AF1EDAB714008F8CB6 /* ThreeCountdownTests */,
+				2A01D9BA1EDAB714008F8CB6 /* ThreeCountdownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A01D9951EDAB713008F8CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A01D9AA1EDAB713008F8CB6 /* LaunchScreen.storyboard in Resources */,
+				2A01D9A71EDAB713008F8CB6 /* Assets.xcassets in Resources */,
+				2A01D9A51EDAB713008F8CB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A01D9AE1EDAB714008F8CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A01D9B91EDAB714008F8CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A01D9931EDAB713008F8CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A01D9A21EDAB713008F8CB6 /* ViewController.m in Sources */,
+				2A01D99F1EDAB713008F8CB6 /* AppDelegate.m in Sources */,
+				2A01D99C1EDAB713008F8CB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A01D9AC1EDAB714008F8CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A01D9B51EDAB714008F8CB6 /* ThreeCountdownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A01D9B71EDAB714008F8CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A01D9C01EDAB714008F8CB6 /* ThreeCountdownUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A01D9B21EDAB714008F8CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A01D9961EDAB713008F8CB6 /* ThreeCountdown */;
+			targetProxy = 2A01D9B11EDAB714008F8CB6 /* PBXContainerItemProxy */;
+		};
+		2A01D9BD1EDAB714008F8CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A01D9961EDAB713008F8CB6 /* ThreeCountdown */;
+			targetProxy = 2A01D9BC1EDAB714008F8CB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A01D9A31EDAB713008F8CB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A01D9A41EDAB713008F8CB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A01D9A81EDAB713008F8CB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A01D9A91EDAB713008F8CB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A01D9C21EDAB714008F8CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A01D9C31EDAB714008F8CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A01D9C51EDAB714008F8CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThreeCountdown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemontree.ThreeCountdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A01D9C61EDAB714008F8CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThreeCountdown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemontree.ThreeCountdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A01D9C81EDAB714008F8CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThreeCountdownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemontree.ThreeCountdownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeCountdown.app/ThreeCountdown";
+			};
+			name = Debug;
+		};
+		2A01D9C91EDAB714008F8CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThreeCountdownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemontree.ThreeCountdownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeCountdown.app/ThreeCountdown";
+			};
+			name = Release;
+		};
+		2A01D9CB1EDAB714008F8CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThreeCountdownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemontree.ThreeCountdownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThreeCountdown;
+			};
+			name = Debug;
+		};
+		2A01D9CC1EDAB714008F8CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThreeCountdownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemontree.ThreeCountdownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThreeCountdown;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A01D9921EDAB713008F8CB6 /* Build configuration list for PBXProject "ThreeCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A01D9C21EDAB714008F8CB6 /* Debug */,
+				2A01D9C31EDAB714008F8CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A01D9C41EDAB714008F8CB6 /* Build configuration list for PBXNativeTarget "ThreeCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A01D9C51EDAB714008F8CB6 /* Debug */,
+				2A01D9C61EDAB714008F8CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A01D9C71EDAB714008F8CB6 /* Build configuration list for PBXNativeTarget "ThreeCountdownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A01D9C81EDAB714008F8CB6 /* Debug */,
+				2A01D9C91EDAB714008F8CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A01D9CA1EDAB714008F8CB6 /* Build configuration list for PBXNativeTarget "ThreeCountdownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A01D9CB1EDAB714008F8CB6 /* Debug */,
+				2A01D9CC1EDAB714008F8CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A01D98F1EDAB713008F8CB6 /* Project object */;
+}
